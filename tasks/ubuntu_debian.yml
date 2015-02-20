@@ -10,4 +10,5 @@
     - 'build-essential'
     - 'python-virtualenv'
   when: ansible_distribution == 'Ubuntu' or ansible_distribution == 'Debian'
+  sudo: yes
 
