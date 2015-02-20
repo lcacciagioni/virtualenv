@@ -1,6 +1,8 @@
 Virtualenv
 =========
 
+[![Build Status](https://travis-ci.org/lcacciagioni/virtualenv.svg?branch=master)](https://travis-ci.org/lcacciagioni/virtualenv)
+
 This role will install virtualenv globally on the designated systems. The virtualenv installed version will be the official supported by the distribution in case.
 
 Requirements
