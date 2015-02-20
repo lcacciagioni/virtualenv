@@ -1,7 +1,7 @@
 ---
 - name: Virtualenv | CentOS | Install Dependencies
   yum: 
-    name: {{ item }}
+    name: '{{ item }}'
     state: latest
   with_items:
     - 'python-devel'
@@ -11,7 +11,7 @@
 
 - name: Virtualenv | CentOS 6 Specific | Install Dependencies
   yum:
-    name: {{ item }}
+    name: '{{ item }}'
     state: latest
   with_items:
     - 'http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm'
@@ -22,7 +22,7 @@
  
 - name: Virtualenv | CentOS 7 Specific | Install Dependencies
   yum:
-    name: {{ item }}
+    name: '{{ item }}'
     state: latest
   with_items:
     - 'http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm'

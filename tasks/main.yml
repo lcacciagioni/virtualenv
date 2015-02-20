@@ -1,5 +1,4 @@
 ---
 # In this file we will include all the derivative distros supported
-include:
-  - centos.yml
-  - ubuntu_debian.yml
+- include: centos.yml
+- include: ubuntu_debian.yml

@@ -1,7 +1,7 @@
 ---
 - name: Virtualenv | Ubuntu / Debian | Install
   apt: 
-    name: {{ item }}
+    name: '{{ item }}'
     cache_valid_time: 3600
     update_cache: yes
     state: latest
