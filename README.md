@@ -1,30 +1,33 @@
 Virtaulenv
 =========
 
-This role will install virtualenv globally on the designated systems
+This role will install virtualenv globally on the designated systems. The virtualenv installed version will be the official supported by the distribution in case.
 
 Requirements
 ------------
 
-Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
+None
 
 Role Variables
 --------------
 
+None
 
 Dependencies
 ------------
 
+None
 
 Example Playbook
 ----------------
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
+You just simply need to include this role in your playbook, no vars needs to be declared.
 
-    - hosts: servers
-      roles:
-         - { role: username.rolename, x: 42 }
-
+```
+	- hosts: all
+		roles:
+			 - lcacciagioni.virtualenv
+```
 License
 -------
 

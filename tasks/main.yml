@@ -1,2 +1,5 @@
 ---
-# tasks file for lcacciagioni.virtualenv
+# In this file we will include all the derivative distros supported
+include:
+  - centos.yml
+  - ubuntu_debian.yml
